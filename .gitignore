@@ -4,6 +4,9 @@
 *.obj
 *.o
 
+# Local report copy
+Report.docx
+
 # IDE files
 .vscode/
 .idea/
