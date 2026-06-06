@@ -29,7 +29,7 @@ The system treats intersections as graph vertices and roads as weighted directed
 
 ## Files
 
-- `Final_Project.cpp` - main source code
+- `Traffic_Menagement.cpp` - main source code
 - `Islamabad_Intersections_Distance_Int.csv` - distance adjacency matrix
 - `Islamabad_Traffic_Intensity.csv` - traffic intensity adjacency matrix
 - `Report.docx` - project report
@@ -52,7 +52,7 @@ This makes the fastest-route feature algorithmically correct, because Dijkstra r
 If you have MSYS2 `g++` installed:
 
 ```powershell
-& "C:\msys64\ucrt64\bin\g++.exe" -std=c++17 -Wall -Wextra -pedantic -static -static-libstdc++ -static-libgcc "Final_Project.cpp" -o "final_project.exe"
+& "C:\msys64\ucrt64\bin\g++.exe" -std=c++17 -Wall -Wextra -pedantic -static -static-libstdc++ -static-libgcc "Traffic_Menagement.cpp" -o "final_project.exe"
 ```
 
 ## Run
